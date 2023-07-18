@@ -84,7 +84,18 @@ nav ul li i{
     border-radius: 50%;
     box-shadow: 4px 4px 10px black;
 }
-
+/* frist section on */
+.logo-img{
+    background-color:#f6f0f0;
+    margin-top: 50px;
+     margin-left: 160px;
+     margin-right: 160px;
+     text-align: center;
+     padding: 40px;
+}
+.logo-img img{
+    margin-left: 90px;
+}
 
 
 
@@ -131,9 +142,18 @@ nav ul li i{
             margin-top:0px;
             margin-left:13px ;
 }
+.logo-img{
+     margin-left: 0px;
+     margin-right: 0px;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+}
+.logo-img img{
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
-
+}
 
 /* midia section 576px to 990px */
 
@@ -164,6 +184,13 @@ nav ul li i{
 }
 .head-img-detalis{
     margin-left: 60px;
+}
+.logo-img{
+    margin-top: 50px;
+     margin-left: 40px;
+     margin-right: 40px;
+     text-align: center;
+     padding: 40px;
 }
      }
 
