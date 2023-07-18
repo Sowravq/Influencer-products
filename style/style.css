@@ -96,9 +96,18 @@ nav ul li i{
 .logo-img img{
     margin-left: 90px;
 }
-
-
-
+/* colection section on */
+.Collection-banar{
+    margin-top: 80px;
+}
+ .title{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+.all-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 
 
 
