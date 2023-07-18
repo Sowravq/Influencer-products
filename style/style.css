@@ -20,8 +20,6 @@
 nav{
     display: flex;
     justify-content: space-between;
-    /* margin-left: 120px;
-    margin-right: 120px; */
     align-items: center;
     background-color:  #5123ad;
 }
@@ -52,9 +50,6 @@ nav ul li i{
 /* header section on */
 .header-section{
     display: flex;
-    /* margin-left: 120px;
-    margin-right:120px ; */
-    /* background-image:url(../images/circle.png); */
     background-repeat: no-repeat;
     background-position: right;
     background-size: 500px;
@@ -89,3 +84,87 @@ nav ul li i{
     border-radius: 50%;
     box-shadow: 4px 4px 10px black;
 }
+
+
+
+
+
+
+
+
+
+/* madia section 576px  */
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-title{
+        margin-left: 60px;
+         margin-right: 60px;
+    }
+    nav ul li a{
+        font-size: .6rem;
+    }
+    nav ul{
+        gap: 10pxpx;
+        margin-right: 50px;
+    } 
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-section img{
+        width:  250px;
+        height: auto;
+        margin-left: 50px;
+    }
+    .head-img-detalis{
+         margin-left: 0px;
+        margin-right: 0px;
+        background: none;
+        border-radius: 0px;
+        box-shadow: none;
+        }
+        .header-title{
+            font-size: 2rem;
+        }
+        .head-detalis{
+            margin-top:0px;
+            margin-left:13px ;
+}
+}
+
+
+
+/* midia section 576px to 990px */
+
+@media screen and (min-width:576px) and (max-width:990px){
+     nav{
+        flex-direction: column;
+        }
+        nav ul{
+            gap: 60px;
+            margin-left: 50px;
+            margin-right: 52px;
+        }
+        .nav-title{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .header-section{
+            flex-direction: column-reverse;
+        }
+        .header-section img{
+            width:  400px;
+            height: auto;
+            margin-left: 130px;
+        }
+        .head-detalis{
+            margin-top:0px;
+            margin-left:20px ;
+}
+.head-img-detalis{
+    margin-left: 60px;
+}
+     }
+
+
